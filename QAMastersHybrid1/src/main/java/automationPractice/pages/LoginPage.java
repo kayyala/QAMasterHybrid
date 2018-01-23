@@ -1,6 +1,5 @@
 package automationPractice.pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -15,6 +14,7 @@ public class LoginPage extends BasePage {
     @FindBy(css = "input[id='passwd']")
     WebElement passwordField;
 
+    
     @FindBy(css = "#SubmitLogin")
     WebElement signInButton;
 
